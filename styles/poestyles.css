@@ -25,3 +25,22 @@ table, th, td {
 table p{
     background-color: white;
 }
+
+/*
+ * copied from: https://www.w3schools.com/CSS/css_link.asp
+ * this is because of "Very low contrast", if applied background color grey and check assessibilty without a styles
+ */
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
